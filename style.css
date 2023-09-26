@@ -1,8 +1,18 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-#todo {
-  background-color: red;
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  background-color: blue;
+}
+
+#form {
+  background-color: aqua;
+  flex-direction: column;
 }
