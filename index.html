@@ -2,20 +2,32 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script defer type="text/javascript" src="script.js"></script>
     <title>Login</title>
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
-    <div class="todo">
-      <h1 class="title">Hello world</h1>
-      <form action="/action_page.php" id="form">
-        <label for="cpnj">Digite seu CNPJ:</label>
-        <input type="text" id="cnpj" name="cnpj" value="" />
-      <input type="submit" value="Login" id="login-form-submit">
-      </script>
-    </form>
-  </div>
+    <div class="page">
+      <form method="POST" class="formLogin" id="formLogin">
+        <img src="./src/logo-bg.jpeg"/>
+        <h1>LOGIN</h1>
+        <p>
+          Digite os 5 primeiros dÍgitos do seu CNPJ para ter acesso ao seu
+          painel do cliente.
+        </p>
+        <label name="cnpj">CNPJ</label>
+        <input
+          type="text"
+          maxlength="5"
+          placeholder="Digite os 5 dígitos do seu CNPJ"
+          id="cnpj"
+          autofocus="true"
+        />
+        <!-- <a href="/">Esqueci minha senha</a> -->
+        <input type="submit" value="Acessar" class="btn" id="btnLogin" />
+      </form>
+    </div>
   </body>
 </html>
