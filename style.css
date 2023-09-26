@@ -1,9 +1,8 @@
-* {
+*{
   margin: 0px;
   padding: 0px;
 }
 
-body {
-  flex: 1;
-  margin-left: 15px;
+#todo {
+  background-color: red;
 }
