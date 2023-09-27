@@ -15,8 +15,7 @@ btnLogin.addEventListener("click", function handleClick(event) {
   if (cnpj == 12345) {
     console.log("SQ QUIMICA");
     alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
-    /* location.replace("https://bginformaticavinhedo.sharepoint.com/sites/SQQuimica/SitePages/ITHelpdeskHome.aspx") */
-    window.open(
+    location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/SQQuimica/SitePages/ITHelpdeskHome.aspx"
     );
     document.getElementById("cnpj").value = "";
@@ -24,7 +23,7 @@ btnLogin.addEventListener("click", function handleClick(event) {
   if (cnpj == 09181) {
     console.log("BG INFORMATICA");
     alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
-    window.open("https://bginformaticavinhedo.sharepoint.com/sites/ti");
+    location.replace("https://bginformaticavinhedo.sharepoint.com/sites/ti");
     document.getElementById("cnpj").value = "";
   }
 });
