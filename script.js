@@ -29,117 +29,117 @@ btnLogin.addEventListener("click", function handleClick(event) {
     return;
   }
   if (cnpj == BGINFORMATICA) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace("https://bginformaticavinhedo.sharepoint.com/sites/ti");
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == SQQUIMICA) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/SQQuimica"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == AKGPOLIMEROS) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/AKGPOLIMEROS"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == CORREADEOLIVEIRAREALESADVOGADOS) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/CORREADEOLIVEIRAREALESADVOGADOS"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == DAMAMATERIAISDELIMPEZA) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/DAMAMATERIAISDELIMPEZA"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == DIASPLAST) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/DiasPlast"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == ECOCONNECT) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/ECOCONNECT"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == INTERALLOY) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/INTERALLOY"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == JRBRINDES) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/J.R.BRINDES"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == LASURE) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/la-sure0"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == MADEIREIRAARUANA) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/MADEIREIRAARUANA0"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == PERFILIX) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/PERFILIX0"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == POLYTECH) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/POLYTECH-PLASTICOSTECNICOS"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == TELINFOR) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/TELINFOR"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == TUNGALOY) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/TUNGALOY"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == UNIARTIMPORT) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/UNIARTIMPORT"
     );
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == VINHEFERPERFILADOS) {
-    alert("Bem vindo! Voce será redirecionado ao seu painel de cliente.");
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     location.replace(
       "https://bginformaticavinhedo.sharepoint.com/sites/VINHEFERPERFILADOS"
     );
