@@ -30,7 +30,8 @@ btnLogin.addEventListener("click", function handleClick(event) {
   }
   if (cnpj == BGINFORMATICA) {
     alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
-    location.replace("https://bginformaticavinhedo.sharepoint.com/sites/ti");
+    window.open("https://bginformaticavinhedo.sharepoint.com/sites/ti");
+    //location.replace("https://bginformaticavinhedo.sharepoint.com/sites/ti");
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == SQQUIMICA) {
