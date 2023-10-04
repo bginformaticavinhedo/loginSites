@@ -100,6 +100,12 @@ img {
   display: flex;
   width: 145px;
   height: 131px;
-  margin-left: 37.5%;
   margin-bottom: 12px;
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
