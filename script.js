@@ -18,6 +18,7 @@ const TELINFOR = "56762";
 const TUNGALOY = "10780";
 const UNIARTIMPORT = "68168";
 const VINHEFERPERFILADOS = "25189";
+const REMAPE = "42467"
 
 btnLogin.addEventListener("click", function handleClick(event) {
   event.preventDefault();
@@ -128,6 +129,13 @@ btnLogin.addEventListener("click", function handleClick(event) {
     alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     window.open(
       "https://bginformaticavinhedo.sharepoint.com/sites/VINHEFERPERFILADOS"
+    );
+    document.getElementById("cnpj").value = "";
+  }
+  if (cnpj == REMAPE) {
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
+    window.open(
+      "https://bginformaticavinhedo.sharepoint.com/sites/REMAPE"
     );
     document.getElementById("cnpj").value = "";
   }
