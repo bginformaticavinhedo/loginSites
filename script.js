@@ -12,13 +12,14 @@ const INTERALLOY = "05507";
 const JRBRINDES = "04568";
 const LASURE = "49596";
 const MADEIREIRAARUANA = "08436";
+const PAROQUIASAOCRISTOVAO = "44588";
 const PERFILIX = "14658";
 const POLYTECH = "40358";
 const TELINFOR = "56762";
 const TUNGALOY = "10780";
 const UNIARTIMPORT = "68168";
 const VINHEFERPERFILADOS = "25189";
-const REMAPE = "42467"
+const REMAPE = "42467";
 
 btnLogin.addEventListener("click", function handleClick(event) {
   event.preventDefault();
@@ -31,9 +32,7 @@ btnLogin.addEventListener("click", function handleClick(event) {
   }
   if (cnpj == BGINFORMATICA) {
     alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
-    window.open(
-      "https://bginformaticavinhedo.sharepoint.com/sites/ti"
-    );
+    window.open("https://bginformaticavinhedo.sharepoint.com/sites/ti");
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == SQQUIMICA) {
@@ -96,6 +95,13 @@ btnLogin.addEventListener("click", function handleClick(event) {
     );
     document.getElementById("cnpj").value = "";
   }
+  if (cnpj == PAROQUIASAOCRISTOVAO) {
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
+    window.open(
+      "https://bginformaticavinhedo.sharepoint.com/sites/PAROQUIASAOCRISTVAO"
+    );
+    document.getElementById("cnpj").value = "";
+  }
   if (cnpj == PERFILIX) {
     alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     window.open("https://bginformaticavinhedo.sharepoint.com/sites/PERFILIX0");
@@ -134,9 +140,7 @@ btnLogin.addEventListener("click", function handleClick(event) {
   }
   if (cnpj == REMAPE) {
     alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
-    window.open(
-      "https://bginformaticavinhedo.sharepoint.com/sites/REMAPE"
-    );
+    window.open("https://bginformaticavinhedo.sharepoint.com/sites/REMAPE");
     document.getElementById("cnpj").value = "";
   }
 });
