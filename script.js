@@ -20,7 +20,7 @@ const TUNGALOY = "10780";
 const UNIARTIMPORT = "68168";
 const VINHEFERPERFILADOS = "25189";
 const REMAPE = "42467";
-const MONSTESALPHALASER = "22379";
+const MONTESALPHALASER = "22379";
 const VILAJARDIM = "52837";
 
 btnLogin.addEventListener("click", function handleClick(event) {
@@ -145,7 +145,7 @@ btnLogin.addEventListener("click", function handleClick(event) {
     window.open("https://bginformaticavinhedo.sharepoint.com/sites/REMAPE");
     document.getElementById("cnpj").value = "";
   }
-  if (cnpj == MONSTESAPLHALASER) {
+  if (cnpj == MONTESALPHALASER) {
     alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     window.open("https://bginformaticavinhedo.sharepoint.com/sites/MONTESALPHALASER");
     document.getElementById("cnpj").value = "";
