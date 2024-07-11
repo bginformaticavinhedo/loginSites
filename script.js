@@ -20,8 +20,8 @@ const TUNGALOY = "10780";
 const UNIARTIMPORT = "68168";
 const VINHEFERPERFILADOS = "25189";
 const REMAPE = "42467";
-const MONSTESALPHALASER = "";
-const VILAJARDIM = "";
+const MONSTESALPHALASER = "22379";
+const VILAJARDIM = "52837";
 
 btnLogin.addEventListener("click", function handleClick(event) {
   event.preventDefault();
