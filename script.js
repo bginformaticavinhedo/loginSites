@@ -23,6 +23,7 @@ const REMAPE = "42467";
 const MONTESALPHALASER = "22379";
 const VILAJARDIM = "52837";
 const NUTRALLE = "55727";
+const MRSOLUCOES = "05448";
 
 btnLogin.addEventListener("click", function handleClick(event) {
   event.preventDefault();
@@ -161,6 +162,11 @@ btnLogin.addEventListener("click", function handleClick(event) {
   if (cnpj == NUTRALLE) {
     alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     window.open("https://bginformaticavinhedo.sharepoint.com/sites/NUTRALLE");
+    document.getElementById("cnpj").value = "";
+  }
+  if (cnpj == MRSOLUCOES) {
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
+    window.open("https://bginformaticavinhedo.sharepoint.com/sites/MRSolucoes");
     document.getElementById("cnpj").value = "";
   }
 });
