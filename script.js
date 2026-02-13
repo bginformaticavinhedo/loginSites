@@ -25,6 +25,7 @@ const VILAJARDIM = "52837";
 const NUTRALLE = "55727";
 const MRSOLUCOES = "05448";
 const RESIVALESANTAFE = "49597";
+const CIBISANA = "73095";
 
 btnLogin.addEventListener("click", function handleClick(event) {
   event.preventDefault();
@@ -174,6 +175,13 @@ btnLogin.addEventListener("click", function handleClick(event) {
     alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     window.open(
       "https://bginformaticavinhedo.sharepoint.com/sites/ResidencialValeSantaFe"
+    );
+    document.getElementById("cnpj").value = "";
+  }
+  if (cnpj == CIBISANA) {
+    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
+    window.open(
+      "https://bginformaticavinhedo.sharepoint.com/sites/CIBISANA"
     );
     document.getElementById("cnpj").value = "";
   }
