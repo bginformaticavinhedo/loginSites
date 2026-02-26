@@ -15,13 +15,9 @@ const MADEIREIRAARUANA = "08436";
 const PAROQUIASAOCRISTOVAO = "44588";
 const PERFILIX = "14658";
 const POLYTECH = "40358";
-const TELINFOR = "56762";
 const TUNGALOY = "10780";
 const UNIARTIMPORT = "68168";
-const VINHEFERPERFILADOS = "25189";
 const REMAPE = "42467";
-const MONTESALPHALASER = "22379";
-const VILAJARDIM = "52837";
 const NUTRALLE = "55727";
 const MRSOLUCOES = "05448";
 const RESIVALESANTAFE = "49597";
@@ -120,11 +116,6 @@ btnLogin.addEventListener("click", function handleClick(event) {
     );
     document.getElementById("cnpj").value = "";
   }
-  if (cnpj == TELINFOR) {
-    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
-    window.open("https://bginformaticavinhedo.sharepoint.com/sites/TELINFOR");
-    document.getElementById("cnpj").value = "";
-  }
   if (cnpj == TUNGALOY) {
     alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     window.open("https://bginformaticavinhedo.sharepoint.com/sites/TUNGALOY");
@@ -137,28 +128,9 @@ btnLogin.addEventListener("click", function handleClick(event) {
     );
     document.getElementById("cnpj").value = "";
   }
-  if (cnpj == VINHEFERPERFILADOS) {
-    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
-    window.open(
-      "https://bginformaticavinhedo.sharepoint.com/sites/VINHEFERPERFILADOS"
-    );
-    document.getElementById("cnpj").value = "";
-  }
   if (cnpj == REMAPE) {
     alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
     window.open("https://bginformaticavinhedo.sharepoint.com/sites/REMAPE");
-    document.getElementById("cnpj").value = "";
-  }
-  if (cnpj == MONTESALPHALASER) {
-    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
-    window.open(
-      "https://bginformaticavinhedo.sharepoint.com/sites/MONTESALPHALASER"
-    );
-    document.getElementById("cnpj").value = "";
-  }
-  if (cnpj == VILAJARDIM) {
-    alert("Bem vindo!\nVocê será redirecionado ao seu painel de cliente.");
-    window.open("https://bginformaticavinhedo.sharepoint.com/sites/vilajardim");
     document.getElementById("cnpj").value = "";
   }
   if (cnpj == NUTRALLE) {
